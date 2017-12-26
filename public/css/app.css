@@ -1,0 +1,126 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);@import url(https://bootswatch.com/4/journal/bootstrap.min.css);.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.divider {
+  height: 50px;
+}
+
+section {
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.jumbotron {
+  background: url("https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/13240730_10156987128445707_5669784631971086036_n.jpg?oh=a64a9c1f184892700f97bf9688dad3c2&oe=5AD5E8F1") no-repeat center center fixed;
+  color: #fff;
+  background-size: cover;
+  height: 600px;
+  padding: 100px 20px;
+  text-align: center;
+  border-bottom: black 1px solid;
+  margin-bottom: 30px;
+}
+
+#footer {
+  height: 60px;
+  background-color: #000000;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+#footer a {
+  color: #fffefe;
+}
+
+.profile {
+  border-radius: 50%;
+  float: left;
+  left: 20px;
+  margin: 5px 5px;
+}
+
+a.group1 img {
+  border: none;
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 1px 7px rgba(0, 0, 0, 0.6);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a.group1:hover img {
+  position: relative;
+  z-index: 999;
+  -webkit-transform: scale(1.03, 1.03);
+  transform: scale(1.03, 1.03);
+}
+
+.list-group-item:hover {
+  opacity: 0.5;
+  color: white;
+  background-color: #e25372;
+}
+
+html {
+  height: 100%;
+  height: calc(100% - 20px);
+}
+
+body {
+  border: 30px solid black;
+  min-height: 100%;
+  min-height: calc(100% - 20px);
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    border: 2px solid black;
+    min-height: 100%;
+    min-height: calc(100% - 20px);
+  }
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  display: block;
+  height: 180px;
+}
+
